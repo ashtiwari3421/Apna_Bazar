@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".registration"
+    android:background="@drawable/bg1">
+
+
+    <ImageView
+        android:id="@+id/logoReg"
+        android:layout_width="198dp"
+        android:layout_height="88dp"
+        android:background="@drawable/ovallogo"
+        app:layout_constraintBottom_toTopOf="@+id/tvRegistration"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.402" />
+
+    <TextView
+        android:id="@+id/tvRegistration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="REGISTRATION"
+        android:textColor="@color/textcolor"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.273" />
+
+    <EditText
+        android:id="@+id/FullName"
+        android:hint="Full Name"
+        android:paddingLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:textColorHint="@color/hint"
+        android:layout_width="323dp"
+        android:layout_height="55dp"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="208dp"
+        android:background="@drawable/shape"
+        app:layout_constraintTop_toBottomOf="@id/tvRegistration"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/email"
+        android:paddingRight="20dp"
+        />
+
+
+    <EditText
+        android:id="@+id/email"
+        android:paddingLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="323dp"
+        android:layout_height="55dp"
+        android:hint="Email"
+        android:textColorHint="@color/hint"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="208dp"
+        android:background="@drawable/shape"
+        app:layout_constraintTop_toBottomOf="@id/FullName"
+        app:layout_constraintBottom_toTopOf="@id/PasswordReg"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:textColor="@color/black"
+        android:paddingRight="20dp"
+        />
+
+    <EditText
+        android:id="@+id/PasswordReg"
+        android:paddingLeft="20dp"
+        android:hint="Password"
+        android:layout_marginTop="20dp"
+        android:layout_width="323dp"
+        android:textColorHint="@color/hint"
+        android:layout_height="55dp"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="208dp"
+        android:background="@drawable/shape"
+        app:layout_constraintTop_toBottomOf="@id/email"
+        app:layout_constraintBottom_toTopOf="@id/phone"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:textColor="@color/black"
+        android:paddingRight="20dp"
+        />
+    <EditText
+        android:id="@+id/phone"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:hint="Phone"
+        android:layout_marginTop="20dp"
+        android:layout_width="323dp"
+        android:textColorHint="@color/hint"
+        android:layout_height="55dp"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="208dp"
+        android:background="@drawable/shape"
+        app:layout_constraintTop_toBottomOf="@id/PasswordReg"
+
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:textColor="@color/black"
+        />
+
+    <Button
+        android:id="@+id/btnSignUp"
+        android:layout_width="124dp"
+        android:layout_height="49dp"
+        android:backgroundTint="#EC3F008E"
+        android:text="SIGN UP"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/phone"
+        app:layout_constraintVertical_bias="0.264" />
+
+    <TextView
+        android:id="@+id/tvLoginHere"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Existing User ? Login Here"
+        android:textColor="#2D2D2D"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnSignUp"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

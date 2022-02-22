@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.apna_bazar" >
+    package="com.example.apna_bazar">
 
     <application
         android:allowBackup="true"
@@ -8,7 +8,10 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Apna_Bazar" >
+        android:theme="@style/Theme.Apna_Bazar">
+        <activity
+            android:name=".registration"
+            android:exported="false" />
         <activity
             android:name=".Post_donate"
             android:exported="false" />
@@ -32,7 +35,7 @@
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:exported="true"
             android:label="@string/title_activity_splashscreen"
-            android:theme="@style/Theme.Apna_Bazar.Fullscreen" >
+            android:theme="@style/Theme.Apna_Bazar.Fullscreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
