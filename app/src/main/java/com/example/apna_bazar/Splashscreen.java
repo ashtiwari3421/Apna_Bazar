@@ -1,16 +1,11 @@
 package com.example.apna_bazar;
 
 
-
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
-
 import android.os.Bundle;
 import android.os.Handler;
 
-
-import com.example.apna_bazar.databinding.ActivitySplashscreenBinding;
+import androidx.appcompat.app.AppCompatActivity;
 
 public class Splashscreen extends AppCompatActivity {
 
