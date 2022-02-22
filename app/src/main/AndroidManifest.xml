@@ -26,18 +26,18 @@
             android:name=".Buylist"
             android:exported="false" />
         <activity
-            android:name=".Splashscreen"
+            android:name=".registration"
             android:exported="false"
             android:theme="@style/Theme.AppCompat.NoActionBar"/>
         <activity
             android:name=".Home"
             android:exported="false" />
         <activity
-            android:name=".registration"
+            android:name=".Splashscreen"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:exported="true"
             android:label="@string/title_activity_splashscreen"
-            android:theme="@style/Theme.Apna_Bazar.Fullscreen">
+            android:theme="@style/Theme.AppCompat.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
