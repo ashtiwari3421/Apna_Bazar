@@ -4,95 +4,105 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Home">
+    tools:context=".Home"
+    android:background="@drawable/bg1">
+
+
+    <ImageView
+        android:layout_width="261dp"
+        android:layout_height="129dp"
+        android:background="@drawable/ovallogo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.102" />
+
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="#83BF43"
-        android:backgroundTint="#7CB342"
+        android:backgroundTint="#121212"
         android:onClick="logout"
         android:text="Sign Out"
         android:textColor="#E4DDDD"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.834" />
-
-    <ImageView
-        android:id="@+id/homebg"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:scaleType="centerCrop"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/bghome" />
+        app:layout_constraintVertical_bias="0.939" />
 
     <ImageButton
         android:id="@+id/buyButton"
-        android:layout_width="170dp"
-        android:layout_height="170dp"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="176dp"
-        android:layout_marginEnd="211dp"
-        android:layout_marginBottom="385dp"
-        android:backgroundTint="#7CB342"
+        android:layout_width="142dp"
+        android:layout_height="126dp"
+
+
+        android:backgroundTint="#121212"
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.111"
+        app:layout_constraintLeft_toLeftOf="parent"
+
+        app:layout_constraintRight_toRightOf="parent"
+
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/buy" />
+        app:layout_constraintVertical_bias="0.466"
+        app:srcCompat="@drawable/buyfinal" />
 
     <ImageButton
         android:id="@+id/sellbutton"
-        android:layout_width="170dp"
-        android:layout_height="170dp"
-        android:layout_marginStart="224dp"
-        android:layout_marginTop="176dp"
-        android:layout_marginEnd="18dp"
-        android:layout_marginBottom="385dp"
+        android:layout_width="142dp"
+        android:layout_height="126dp"
+
+        android:backgroundTint="#121212"
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.884"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/sell" />
+        app:layout_constraintVertical_bias="0.466"
+        app:srcCompat="@drawable/sellfinal" />
 
     <ImageButton
         android:id="@+id/donate"
-        android:layout_width="170dp"
-        android:layout_height="170dp"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="382dp"
-        android:layout_marginEnd="211dp"
-        android:layout_marginBottom="179dp"
+        android:layout_width="142dp"
+        android:layout_height="126dp"
+
+        android:backgroundTint="#121212"
         android:scaleType="fitCenter"
+
+
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.111"
+
+        app:layout_constraintLeft_toLeftOf="parent"
+
+        app:layout_constraintRight_toRightOf="parent"
+
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/donate" />
+        app:layout_constraintVertical_bias="0.705"
+        app:srcCompat="@drawable/donatefinal" />
 
     <ImageButton
         android:id="@+id/donations"
-        android:layout_width="170dp"
-        android:layout_height="170dp"
-        android:layout_marginStart="223dp"
-        android:layout_marginTop="382dp"
-        android:layout_marginEnd="18dp"
-        android:layout_marginBottom="179dp"
+        android:layout_width="142dp"
+        android:layout_height="126dp"
+
+        android:backgroundTint="#121212"
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.883"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/donation" />
-
+        app:layout_constraintVertical_bias="0.705"
+        app:srcCompat="@drawable/donatiomfinal" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
