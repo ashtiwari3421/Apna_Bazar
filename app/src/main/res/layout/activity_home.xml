@@ -11,6 +11,7 @@
     <ImageView
         android:layout_width="261dp"
         android:layout_height="129dp"
+
         android:background="@drawable/ovallogo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -23,7 +24,7 @@
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="#121212"
+        android:backgroundTint="#1A2565"
         android:onClick="logout"
         android:text="Sign Out"
         android:textColor="#E4DDDD"
@@ -31,23 +32,18 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.939" />
+        app:layout_constraintVertical_bias="0.857" />
 
     <ImageButton
         android:id="@+id/buyButton"
         android:layout_width="142dp"
         android:layout_height="126dp"
-
-
         android:backgroundTint="#121212"
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="parent"
-
         app:layout_constraintHorizontal_bias="0.111"
         app:layout_constraintLeft_toLeftOf="parent"
-
         app:layout_constraintRight_toRightOf="parent"
-
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.466"
         app:srcCompat="@drawable/buyfinal" />
@@ -56,15 +52,12 @@
         android:id="@+id/sellbutton"
         android:layout_width="142dp"
         android:layout_height="126dp"
-
         android:backgroundTint="#121212"
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="parent"
-
         app:layout_constraintHorizontal_bias="0.884"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.466"
         app:srcCompat="@drawable/sellfinal" />
@@ -73,18 +66,12 @@
         android:id="@+id/donate"
         android:layout_width="142dp"
         android:layout_height="126dp"
-
         android:backgroundTint="#121212"
         android:scaleType="fitCenter"
-
-
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.111"
-
         app:layout_constraintLeft_toLeftOf="parent"
-
         app:layout_constraintRight_toRightOf="parent"
-
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.705"
         app:srcCompat="@drawable/donatefinal" />
@@ -93,7 +80,6 @@
         android:id="@+id/donations"
         android:layout_width="142dp"
         android:layout_height="126dp"
-
         android:backgroundTint="#121212"
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="parent"
