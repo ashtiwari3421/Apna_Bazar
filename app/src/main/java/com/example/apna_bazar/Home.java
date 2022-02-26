@@ -34,7 +34,7 @@ public class Home extends AppCompatActivity {
         mCreateBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(getApplicationContext(),Buylist.class ));
+                startActivity(new Intent(getApplicationContext(), Buylist.class ));
             }
         });
         nCreateBtn.setOnClickListener(new View.OnClickListener() {
