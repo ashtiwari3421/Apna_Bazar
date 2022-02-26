@@ -7,26 +7,7 @@
     tools:context=".Post_sell"
     android:background="@drawable/bg4">
 
-  <EditText
-      android:id="@+id/pricebuy"
-      android:layout_width="318dp"
-      android:layout_height="45dp"
-      android:autoLink="email"
-      android:background="@drawable/shape"
-      android:drawableTint="#BA5959"
-      android:ems="10"
-      android:foregroundTint="#58369E"
-      android:hint="Price"
-      android:inputType="number"
-      android:paddingHorizontal="15dp"
-      android:textColor="#121212"
-      android:textColorHint="@color/hint"
-      app:layout_constraintBottom_toBottomOf="parent"
-      app:layout_constraintHorizontal_bias="0.494"
-      app:layout_constraintLeft_toLeftOf="parent"
-      app:layout_constraintRight_toRightOf="parent"
-      app:layout_constraintTop_toTopOf="parent"
-      app:layout_constraintVertical_bias="0.532" />
+
 
 
   <Button
@@ -76,7 +57,7 @@
       app:layout_constraintLeft_toLeftOf="parent"
       app:layout_constraintRight_toRightOf="parent"
       app:layout_constraintTop_toTopOf="parent"
-      app:layout_constraintVertical_bias="0.441" />
+      app:layout_constraintVertical_bias="0.524" />
 
   <EditText
       android:id="@+id/editTextPhone"
@@ -95,7 +76,7 @@
       app:layout_constraintLeft_toLeftOf="parent"
       app:layout_constraintRight_toRightOf="parent"
       app:layout_constraintTop_toTopOf="parent"
-      app:layout_constraintVertical_bias="0.358" />
+      app:layout_constraintVertical_bias="0.435" />
 
   <EditText
       android:id="@+id/productName"
@@ -113,7 +94,7 @@
       app:layout_constraintLeft_toLeftOf="parent"
       app:layout_constraintRight_toRightOf="parent"
       app:layout_constraintTop_toTopOf="parent"
-      app:layout_constraintVertical_bias="0.275" />
+      app:layout_constraintVertical_bias="0.344" />
 
   <EditText
       android:id="@+id/editTextTextMultiLine"
@@ -150,5 +131,5 @@
       app:layout_constraintLeft_toLeftOf="parent"
       app:layout_constraintRight_toRightOf="parent"
       app:layout_constraintTop_toTopOf="parent"
-      app:layout_constraintVertical_bias="0.18" />
+      app:layout_constraintVertical_bias="0.217" />
 </androidx.constraintlayout.widget.ConstraintLayout>
