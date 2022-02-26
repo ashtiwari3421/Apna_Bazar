@@ -39,8 +39,10 @@
         android:layout_height="55dp"
         android:background="@drawable/shape"
         android:hint="Email"
+        android:inputType="textWebEmailAddress"
         android:paddingLeft="20dp"
         android:paddingRight="20dp"
+        android:singleLine="true"
         android:textColor="@color/black"
         android:textColorHint="@color/hint"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -95,16 +97,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnLogin"
         app:layout_constraintVertical_bias="0.244" />
-
-    <ImageButton
-        android:id="@+id/imageButton"
-        android:layout_width="57dp"
-        android:layout_height="47dp"
-        android:background="#00D8CBCB"
-        android:scaleType="fitCenter"
-        app:srcCompat="@drawable/google"
-        tools:layout_editor_absoluteX="47dp"
-        tools:layout_editor_absoluteY="479dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
