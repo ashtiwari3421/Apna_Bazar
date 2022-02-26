@@ -10,6 +10,8 @@ public class Post_donate extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getSupportActionBar().hide();
+        setContentView(R.layout.activity_post_sell);
 
         setContentView(R.layout.activity_post_donate);
     }
