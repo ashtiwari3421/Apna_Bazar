@@ -52,7 +52,7 @@ Here are some of the awesome things you can do with the APNA BAZAR App:
 
 BUY or SELL - one can easily buy or sell his or her material by simple login and click on buy or sell and easily access what they want.
 
-If someone want to donate anyone,  they can donate
+If someone want to donate anything to anyone, they can find eligible people to donate their stuff.
 
 
 ## Used By
