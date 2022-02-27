@@ -3,13 +3,15 @@
 
 
 # Apna Bazar
+MADE BY: Team New India
 APNA BAZAR is the perfect online marketplace to buy and sell used goods at your college or campus level!
 We make it for just helping the college students.
 As a fresher, students are bringing New books or college materials rather then to use the senior's books or materials which they kept.
 This platform combines both the persons at a same place to solve their problem.
 
 
-## Images for Demo
+
+## Images of The App
 ![WhatsApp Image 2022-02-27 at 3 35 42 PM](https://user-images.githubusercontent.com/96831193/155880041-762b7211-42be-4708-adc6-f97b37f0d581.jpg)
 
 
@@ -77,6 +79,7 @@ The technology used are: Android Studio, Java and XML, firebase ( Authentication
 
 
 For support, email newindiaitj@gnail.com
+
 
 You can share with your college friends so that more students get Benefit from it.
 
