@@ -11,7 +11,8 @@
         android:theme="@style/Theme.Apna_Bazar" >
         <activity
             android:name=".trialPage"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
         <activity
             android:name=".Login"
             android:exported="false"
@@ -21,7 +22,8 @@
             android:exported="false" />
         <activity
             android:name=".Donatelist"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
         <activity
             android:name=".Post_sell"
             android:exported="false" />

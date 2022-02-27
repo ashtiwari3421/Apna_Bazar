@@ -17,7 +17,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.928">
+        app:layout_constraintVertical_bias="0.919">
 
         <ImageView
             android:id="@+id/imageView4"
@@ -25,7 +25,7 @@
             android:layout_height="121dp"
             android:layout_gravity="center_vertical"
             android:layout_marginLeft="10dp"
-            android:background="@drawable/books3" />
+            android:background="@drawable/extension" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -55,6 +55,18 @@
             android:layout_marginLeft="190dp"
             android:layout_marginTop="130dp"
             android:text="Ph: 9586359890" />
+        <TextView
+            android:layout_width="86dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="110dp"
+            android:background="#FFEA00"
+            android:text=" ₹ 150"
+            android:textColor="#F50057"
+            android:textSize="30dp"
+
+
+            />
 
 
     </androidx.cardview.widget.CardView>
@@ -69,15 +81,15 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.63">
+        app:layout_constraintVertical_bias="0.591">
 
         <ImageView
 
-            android:layout_width="151dp"
-            android:layout_height="121dp"
+            android:layout_width="137dp"
+            android:layout_height="123dp"
             android:layout_gravity="center_vertical"
             android:layout_marginLeft="10dp"
-            android:background="@drawable/books3" />
+            android:background="@drawable/tablefan" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -107,6 +119,18 @@
             android:layout_marginLeft="190dp"
             android:layout_marginTop="130dp"
             android:text="Ph: 8526499932" />
+        <TextView
+            android:layout_width="86dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="110dp"
+            android:background="#FFEA00"
+            android:text=" ₹ 799"
+            android:textColor="#F50057"
+            android:textSize="30dp"
+
+
+            />
 
 
     </androidx.cardview.widget.CardView>
@@ -121,15 +145,16 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.329">
+        app:layout_constraintVertical_bias="0.273">
+
 
         <ImageView
 
-            android:layout_width="146dp"
-            android:layout_height="111dp"
+            android:layout_width="137dp"
+            android:layout_height="124dp"
             android:layout_gravity="center_vertical"
             android:layout_marginLeft="10dp"
-            android:background="@drawable/books3" />
+            android:background="@drawable/advanced" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -158,10 +183,39 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="190dp"
             android:layout_marginTop="130dp"
-            android:text="Ph: 8956235689" />
+            android:text="Ph: 8956235689"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="86dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="110dp"
+            android:background="#FFEA00"
+            android:text=" ₹ 350"
+            android:textColor="#F50057"
+            android:textSize="30dp"
+
+
+            />
 
 
     </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="243dp"
+        android:layout_height="76dp"
+        android:text="BUY HERE"
+        android:textColor="@color/textcolor"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.059" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
