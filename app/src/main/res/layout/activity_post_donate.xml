@@ -37,27 +37,6 @@
       app:layout_constraintTop_toTopOf="parent"
       app:layout_constraintVertical_bias="0.025" />
 
-  <EditText
-      android:id="@+id/editTextTextEmailAddress"
-      android:layout_width="318dp"
-      android:layout_height="45dp"
-      android:autoLink="email"
-      android:background="@drawable/shape"
-      android:drawableTint="#BA5959"
-      android:ems="10"
-      android:foregroundTint="#58369E"
-      android:hint="Email"
-      android:inputType="textEmailAddress"
-      android:paddingHorizontal="15dp"
-
-      android:textColor="#121212"
-      android:textColorHint="@color/hint"
-      app:layout_constraintBottom_toBottomOf="parent"
-      app:layout_constraintHorizontal_bias="0.494"
-      app:layout_constraintLeft_toLeftOf="parent"
-      app:layout_constraintRight_toRightOf="parent"
-      app:layout_constraintTop_toTopOf="parent"
-      app:layout_constraintVertical_bias="0.524" />
 
   <EditText
       android:id="@+id/editTextPhone"
@@ -76,7 +55,7 @@
       app:layout_constraintLeft_toLeftOf="parent"
       app:layout_constraintRight_toRightOf="parent"
       app:layout_constraintTop_toTopOf="parent"
-      app:layout_constraintVertical_bias="0.435" />
+      app:layout_constraintVertical_bias="0.405" />
 
   <EditText
       android:id="@+id/productName"
@@ -94,7 +73,33 @@
       app:layout_constraintLeft_toLeftOf="parent"
       app:layout_constraintRight_toRightOf="parent"
       app:layout_constraintTop_toTopOf="parent"
-      app:layout_constraintVertical_bias="0.344" />
+      app:layout_constraintVertical_bias="0.316" />
+
+  <Button
+      android:id="@+id/button3"
+      android:layout_width="126dp"
+      android:layout_height="56dp"
+      android:background="@drawable/shape"
+      android:backgroundTint="@color/white"
+      android:text="Upload Image"
+
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.642"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.847" />
+
+  <ImageView
+      android:id="@+id/imageView5"
+      android:layout_width="64dp"
+      android:layout_height="59dp"
+      android:layout_marginBottom="100dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.293"
+      app:layout_constraintStart_toStartOf="parent"
+      app:srcCompat="@android:drawable/ic_menu_camera" />
 
   <EditText
       android:id="@+id/editTextTextMultiLine"
@@ -110,12 +115,11 @@
       android:textColor="#121212"
       android:textColorHint="@color/hint"
       app:layout_constraintBottom_toBottomOf="parent"
-      app:layout_constraintHorizontal_bias="0.504"
+      app:layout_constraintHorizontal_bias="0.505"
       app:layout_constraintLeft_toLeftOf="parent"
       app:layout_constraintRight_toRightOf="parent"
       app:layout_constraintTop_toTopOf="parent"
-      app:layout_constraintVertical_bias="0.812" />
-
+      app:layout_constraintVertical_bias="0.641" />
 
   <TextView
       android:id="@+id/textView2"

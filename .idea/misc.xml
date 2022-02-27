@@ -3,7 +3,6 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Apna_bazaar/app/src/main/res/layout/activity_home.xml" value="0.125" />
         <entry key="..\:/Users/ASUS/Apna_Bazar/app/src/main/res/layout/activity_buylist.xml" value="0.23645833333333333" />
         <entry key="..\:/Users/ASUS/Apna_Bazar/app/src/main/res/layout/activity_home.xml" value="0.23645833333333333" />
         <entry key="..\:/Users/ASUS/Apna_Bazar/app/src/main/res/layout/activity_login.xml" value="0.23645833333333333" />
@@ -11,10 +10,10 @@
         <entry key="..\:/Users/hp/AndroidStudioProjects/Apna_Bazar/app/src/main/res/drawable/shape.xml" value="0.1585" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/Apna_Bazar/app/src/main/res/layout/activity_buylist.xml" value="0.14479166666666668" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/Apna_Bazar/app/src/main/res/layout/activity_donatelist.xml" value="0.14479166666666668" />
-        <entry key="..\:/Users/hp/AndroidStudioProjects/Apna_Bazar/app/src/main/res/layout/activity_home.xml" value="0.14479166666666668" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/Apna_Bazar/app/src/main/res/layout/activity_home.xml" value="0.16666666666666666" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/Apna_Bazar/app/src/main/res/layout/activity_login.xml" value="0.16666666666666666" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/Apna_Bazar/app/src/main/res/layout/activity_post_donate.xml" value="0.14666666666666667" />
-        <entry key="..\:/Users/hp/AndroidStudioProjects/Apna_Bazar/app/src/main/res/layout/activity_post_sell.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/Apna_Bazar/app/src/main/res/layout/activity_post_sell.xml" value="0.22" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/Apna_Bazar/app/src/main/res/layout/activity_registration.xml" value="0.12760416666666666" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/Apna_Bazar/app/src/main/res/layout/activity_splashscreen.xml" value="0.14479166666666668" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/Apna_Bazar/app/src/main/res/layout/activity_trial_page.xml" value="0.22" />
