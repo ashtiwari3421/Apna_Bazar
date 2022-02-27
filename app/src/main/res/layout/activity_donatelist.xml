@@ -21,11 +21,11 @@
 
         <ImageView
             android:id="@+id/imageView4"
-            android:layout_width="151dp"
-            android:layout_height="121dp"
+            android:layout_width="145dp"
+            android:layout_height="132dp"
             android:layout_gravity="center_vertical"
             android:layout_marginLeft="10dp"
-            android:background="@drawable/extension" />
+            android:background="@drawable/letusc" />
 
         <TextView
             android:layout_width="wrap_content"
