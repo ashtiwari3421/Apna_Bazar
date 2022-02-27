@@ -57,7 +57,7 @@ This App is used by
 - College Students
 - Professors and Staffs
 
-## Our Websites
+## Our App
 
 The technology used are: Android Studio, Java and XML, firebase ( Authentication and Database), Github.
 
@@ -74,7 +74,7 @@ The technology used are: Android Studio, Java and XML, firebase ( Authentication
 
 
 
-For support, email vijaykumar719585@gmial.com
+For support, email newindiaitj@gnail.com
 
 You can share with your college friends so that more students get Benefit from it.
 
@@ -82,7 +82,7 @@ You can share with your college friends so that more students get Benefit from i
 
 If you have any feedback, please send on the given email
 
-vijakumar719585@gmail.com
+newindiaitj@gnail.com
 
 
 ## FAQ
