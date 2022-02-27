@@ -3,7 +3,8 @@
 
 
 # Apna Bazar
-MADE BY: Team New India
+Made By: TEAM NEW INDIA
+
 APNA BAZAR is the perfect online marketplace to buy and sell used goods at your college or campus level!
 We make it for just helping the college students.
 As a fresher, students are bringing New books or college materials rather then to use the senior's books or materials which they kept.
