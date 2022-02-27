@@ -4,6 +4,164 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".trialPage">
+    tools:context=".trialPage"
+    android:background="@drawable/bg1">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="355dp"
+        android:layout_height="158dp"
+        android:outlineAmbientShadowColor="@color/black"
+        android:padding="10dp"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.928">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="151dp"
+            android:layout_height="121dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/books3" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="10dp"
+            android:text="Extension"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"
+
+            />
+
+        <TextView
+            android:layout_width="128dp"
+            android:layout_height="67dp"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="43dp"
+            android:text="5 month old 4 Socket single button extension cord in good condition"
+            android:textAlignment="center"
+            android:textColor="@color/textcolor" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="130dp"
+            android:text="Ph: 9586359890" />
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="355dp"
+        android:layout_height="158dp"
+        android:outlineAmbientShadowColor="@color/black"
+        android:padding="10dp"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.63">
+
+        <ImageView
+
+            android:layout_width="151dp"
+            android:layout_height="121dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/books3" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="10dp"
+            android:text="Table Fan"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"
+
+            />
+
+        <TextView
+            android:layout_width="127dp"
+            android:layout_height="85dp"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="43dp"
+            android:text="2 years old USHA table fan. Working condition without any damage in cord"
+            android:textAlignment="center"
+            android:textColor="@color/textcolor" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="130dp"
+            android:text="Ph: 8526499932" />
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="355dp"
+        android:layout_height="158dp"
+        android:outlineAmbientShadowColor="@color/black"
+        android:padding="10dp"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.329">
+
+        <ImageView
+
+            android:layout_width="146dp"
+            android:layout_height="111dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/books3" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="10dp"
+            android:text="D J Griffith"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"
+
+            />
+
+        <TextView
+            android:layout_width="131dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="43dp"
+            android:text="Used DJ Griffith Electrodynamics Book for Sale. Mint condition with covers intact"
+            android:textAlignment="center"
+            android:textColor="@color/textcolor" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="130dp"
+            android:text="Ph: 8956235689" />
+
+
+    </androidx.cardview.widget.CardView>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
